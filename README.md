@@ -12,6 +12,6 @@
 생성자와 판별자가 서로 경쟁을 하는 구도를 가지고 있고 진짜 이미지가 주어질 때 생성자는 진짜같은 가짜 이미지를 생성해내고 판별자는 진짜와 가짜를 구별해서 생성자에게 피드백을 주는 구조를 가지고있다. 시간이 지날수록 생성자는 더 진짜같은 가짜 이미지를 만들어내고 판별자는 진짜와 가짜 사이를 분별하는 능력이 더 뛰어나진다.
 
 
-![traindatagan](https://user-images.githubusercontent.com/43350319/112832121-d4567d00-90cf-11eb-8217-4d3cbe845ce2.png) ![testdatagan](https://user-images.githubusercontent.com/43350319/112832138-d8829a80-90cf-11eb-960e-1c377730cc4a.png)
+![traindatagan](https://user-images.githubusercontent.com/43350319/112832121-d4567d00-90cf-11eb-8217-4d3cbe845ce2.png)![testdatagan](https://user-images.githubusercontent.com/43350319/112832138-d8829a80-90cf-11eb-960e-1c377730cc4a.png)
 
 원래 GAN은 이미지를 위해서 사용되지만, 본 프로젝트에서는 GAN이 이미지가 아닌 시계열 데이터를 위해 사용됐기 때문에 기존에 존재하던 GAN에서 입력을 시계열 형태에 맞게 수정해주는 작업을 진행했다. 실험은 train data
